@@ -26,12 +26,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    caronames/caronames.cpp
+        caronames/caronames.cpp \
+        zopilomanNames/zopilomannames.cpp
 
 HEADERS += \
         mainwindow.h \
-    caronames/caronames.h
+        caronames/caronames.h \
+        zopilomanNames/zopilomannames.h
+
 
 FORMS += \
         mainwindow.ui \
-    caronames/caronames.ui
+    caronames/caronames.ui \
+    zopilomanNames/zopilomannames.ui
